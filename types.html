@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+      .secondary a{
+        width: 20%;
+      }
+      
+    </style>
+</head>
+
+<header>
+  
+  <!--Desktop nav-->
+  <div class="navbar">
+    <div class="logo">
+        <a href="index.html">
+        <img src="images/logovec.png" alt="Pickwick logo" width="94px"></a>
+    </div>
+    <!--Left part-->
+    <a href="types.html">Types</a>
+    <div class="subnav">
+      <button class="subnavbtn">About us<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="ourstory.html">Our History</a>
+        <a href="https://www.pickwick.nl/duurzaamheid/">Sustainability</a>
+      </div>
+    </div>
+    <a href="faq.html">FAQ</a>
+    <!--Right part-->
+    <a href="contact.html" id="righties">Contact</a>
+    <div class="subnav" id="righties">
+      <button class="subnavbtn">Order<i class="fa fa-caret-down" id="righties"></i></button>
+      <div class="subnav-content">
+        <a href="order.html" id="righties">Coded</a>
+        <a href="order-mockup.html" id="righties">Planned</a>
+      </div>
+    </div>
+    <a href="games.html" id="righties">Game</a>
+  </div>
+  
+  <nav>
+    <!-- Mobile hamburger -->
+    <div id="hamburger" onclick="toggleHamburger(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+      </div>
+      <div class="mobilelogo">
+        <a href="index.html">
+        <img src="images/logovec.png" alt="Pickwick logo" height="70px"></a>
+    </div>
+    </nav>
+  
+    <!-- Mobile Nav -->
+  <nav class="nav-links-mobile nav-links-mobile-hidden">
+      <a href="types.html">
+          Types
+      </a>
+      <a href="ourstory.html">
+          Our Story
+      </a>
+      <a href="https://www.pickwick.nl/duurzaamheid/">
+        Sustainability
+    </a>
+      <a href="faq.html">
+          FAQ
+      </a>
+      <a href="games.html">
+          Games
+      </a>
+      <a href="order.html">
+        Order
+    </a>
+    <a href="contact.html">
+      Contact
+  </a>
+  </nav>
+
+</header>
+
+<body>
+    <h1>Types of teas</h1>
+    <img src="images/types-main.png" alt="Types" width="100%">
+    <div class="secondary">
+    <a href="types.html">Spices</a>
+    <a href="types.html">Herb</a>
+    <a href="types.html">Green</a>
+    <a href="types.html">Black</a>
+    <a href="types.html">Fruit</a>
+  </div>
+    <div class="flex-container">
+      <div><h4 class="ad">Our favourite: <br> Liquorice</div>
+        <img src="images/spices-lakrids.png" alt="Liquorice" width="30%">
+        <div>
+          <p id="p">A 100% natural blend of liquorice root (70%)
+            and Oolong tea, to warm you up during
+            the winter.</p>
+          </div>
+        </div>
+        <article>
+            <section class="sec">
+              <h5>Cinnamon</h5>
+              <img src="images/spices-cinnamon.png" alt="Cinnamon" width="200px">
+              <p>Try out our warm and
+                spicy cinnamon and
+                black tea mix.</p>
+              </section>
+              <section class="sec">
+                <h5>Caramel-Vanilla</h5>
+                <img src="images/spices-caramel-vanilla.png" alt="Caramel-Vanilla" width="200px">
+                <p>Enjoy a sweet and
+                  delicious black tea mix 
+                  of caramel and vanilla. </p>
+                </section>
+              </article>
+  
+
+<footer>
+  <div class="footer">
+    <div class="footerlogo">
+      <a href="index.html">
+      <img src="images/logovec.png" alt="Pickwick logo" width="94px"></a>
+      <p id="midup">From 1753</p>
+  </div class="float-container">
+    <div id="child">
+      <ul style="list-style: none;">
+      <li>CVR 36 47 39 59</li>
+      <li>Customer service: 80 88 35 21</li>
+      <li>Jacobs Douwe Egberts</li>
+      </ul>
+    </div>
+    <div id="child">
+      <ul style="list-style: none;">
+        <li>Privacy Policy</li>
+        <li>Cookies</li>
+        <li>Inspection report</li>
+      </ul>
+    </div>
+    <div class="middown">
+  <p id="middown">©2021 Pickwick</p>
+</div>
+  </div> 
+</footer>
+
+</body>
+
+<script src="./style.js"></script>
+
+</html>

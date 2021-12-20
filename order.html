@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+      .secondary a{
+        width: 12.5%;
+      }
+    </style>
+</head>
+
+<header>
+  
+  <!--Desktop nav-->
+  <div class="navbar">
+    <div class="logo">
+        <a href="index.html">
+        <img src="images/logovec.png" alt="Pickwick logo" width="94px"></a>
+    </div>
+    <!--Left part-->
+    <a href="types.html">Types</a>
+    <div class="subnav">
+      <button class="subnavbtn">About us<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="ourstory.html">Our History</a>
+        <a href="https://www.pickwick.nl/duurzaamheid/">Sustainability</a>
+      </div>
+    </div>
+    <a href="faq.html">FAQ</a>
+    <!--Right part-->
+    <a href="contact.html" id="righties">Contact</a>
+    <div class="subnav" id="righties">
+      <button class="subnavbtn">Order<i class="fa fa-caret-down" id="righties"></i></button>
+      <div class="subnav-content">
+        <a href="order.html" id="righties">Coded</a>
+        <a href="order-mockup.html" id="righties">Planned</a>
+      </div>
+    </div>
+    <a href="games.html" id="righties">Game</a>
+  </div>
+  
+  <nav>
+    <!-- Mobile hamburger -->
+    <div id="hamburger" onclick="toggleHamburger(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+      </div>
+      <div class="mobilelogo">
+        <a href="index.html">
+        <img src="images/logovec.png" alt="Pickwick logo" height="70px"></a>
+    </div>
+    </nav>
+  
+    <!-- Mobile Nav -->
+  <nav class="nav-links-mobile nav-links-mobile-hidden">
+      <a href="types.html">
+          Types
+      </a>
+      <a href="ourstory.html">
+          Our Story
+      </a>
+      <a href="https://www.pickwick.nl/duurzaamheid/">
+        Sustainability
+    </a>
+      <a href="faq.html">
+          FAQ
+      </a>
+      <a href="games.html">
+          Games
+      </a>
+      <a href="order.html">
+        Order
+    </a>
+    <a href="contact.html">
+      Contact
+  </a>
+  </nav>
+
+</header>
+
+<body>
+    <h1>Ordering Pickwick</h1>
+    <img src="images/order-main.jpg" alt="Order" width="100%">
+    <div class="secondary">
+    <a href="order.html">Spices</a>
+    <a href="order.html">Herb</a>
+    <a href="order.html">Green</a>
+    <a href="order.html">Black</a>
+    <a href="order.html">Fruit</a>
+    <a href="order.html">White</a>
+    <a href="order.html">Rooibos</a>
+    <a href="order.html">Kids</a>
+  </div>
+    <div class="flex-container">
+      <div><h4 class="ad">Recommended: <br> Winterglow</div>
+        <img src="images/order-winterglow-recom.png" alt="Winterglow" width="30%">
+        <div>
+          <p id="p">Enjoy this rich and delicious black tea, enriched with cinnamon and orange.
+            Perfect to keep you warm in the winter!</p>
+          </div>
+        </div>
+        <article>
+            <section class="sec">
+              <h5>Turkish Apple</h5>
+              <img src="images/order-turkishapple.png" alt="Turkish Apple" width="200px">
+              <p>Try our apple and
+                vanilla flavoured
+                black tea, from the
+                Netherlands!</p>
+              </section>
+              <section class="sec">
+                <h5>Caramelised Pear</h5>
+                <img src="images/order-caramelisedpear.png" alt="Caramelised Pear" width="200px">
+                <p>Warm and spicy! Our
+                    pear, cinnamon and
+                    caramel mix can be
+                    your new favourite</p>
+                </section>
+                <section class="sec">
+                    <h5>Minty Morocco</h5>
+                    <img src="images/order-mintymorocco.png" alt="Minty Morocco" width="200px">
+                    <p>Feel fresh with this caffeine-free spice mix of peppermint and cinnamon!</p>
+                    </section>
+                    <section class="sec">
+                        <h5>Autumn Storm</h5>
+                        <img src="images/order-autumnstorm.png" alt="Autumn Storm" width="200px">
+                        <p>Spicy yet fruity, black tea, cinnamon and
+                            apples. Everything
+                            you just need!</p>
+                        </section>
+                        <section class="sec">
+                            <h5>Delicious Treats box</h5>
+                            <img src="images/order-delicioustreats.png" alt="Delicious Treats box" width="200px">
+                            <p>¤ Caramelised pear <br>
+                                ¤ Apple pie <br>
+                                ¤ Spiced biscuit <br>
+                                ¤ Hazelnut cocoa</p>
+                            </section>
+              </article>
+
+<footer>
+  <div class="footer">
+    <div class="footerlogo">
+      <a href="index.html">
+      <img src="images/logovec.png" alt="Pickwick logo" width="94px"></a>
+      <p id="midup">From 1753</p>
+  </div class="float-container">
+    <div id="child">
+      <ul style="list-style: none;">
+      <li>CVR 36 47 39 59</li>
+      <li>Customer service: 80 88 35 21</li>
+      <li>Jacobs Douwe Egberts</li>
+      </ul>
+    </div>
+    <div id="child">
+      <ul style="list-style: none;">
+        <li>Privacy Policy</li>
+        <li>Cookies</li>
+        <li>Inspection report</li>
+      </ul>
+    </div>
+    <div class="middown">
+  <p id="middown">©2021 Pickwick</p>
+</div>
+  </div> 
+</footer>
+
+</body>
+
+<script src="./style.js"></script>
+
+</html>

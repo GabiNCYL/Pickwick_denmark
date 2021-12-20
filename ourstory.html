@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .photo{
+            text-align: center;
+            font-size: 8px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 0;
+    padding-bottom: 50px;
+        }
+        p{
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+
+<header>
+  
+  <!--Desktop nav-->
+  <div class="navbar">
+    <div class="logo">
+        <a href="index.html">
+        <img src="images/logovec.png" alt="Pickwick logo" width="94px"></a>
+    </div>
+    <!--Left part-->
+    <a href="types.html">Types</a>
+    <div class="subnav">
+      <button class="subnavbtn">About us<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="ourstory.html">Our History</a>
+        <a href="https://www.pickwick.nl/duurzaamheid/">Sustainability</a>
+      </div>
+    </div>
+    <a href="faq.html">FAQ</a>
+    <!--Right part-->
+    <a href="contact.html" id="righties">Contact</a>
+    <div class="subnav" id="righties">
+      <button class="subnavbtn">Order<i class="fa fa-caret-down" id="righties"></i></button>
+      <div class="subnav-content">
+        <a href="order.html" id="righties">Coded</a>
+        <a href="order-mockup.html" id="righties">Planned</a>
+      </div>
+    </div>
+    <a href="games.html" id="righties">Game</a>
+  </div>
+  
+  <nav>
+    <!-- Mobile hamburger -->
+    <div id="hamburger" onclick="toggleHamburger(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+      </div>
+      <div class="mobilelogo">
+        <a href="index.html">
+        <img src="images/logovec.png" alt="Pickwick logo" height="70px"></a>
+    </div>
+    </nav>
+  
+    <!-- Mobile Nav -->
+  <nav class="nav-links-mobile nav-links-mobile-hidden">
+      <a href="types.html">
+          Types
+      </a>
+      <a href="ourstory.html">
+          Our Story
+      </a>
+      <a href="https://www.pickwick.nl/duurzaamheid/">
+        Sustainability
+    </a>
+      <a href="faq.html">
+          FAQ
+      </a>
+      <a href="games.html">
+          Games
+      </a>
+      <a href="order.html">
+        Order
+    </a>
+    <a href="contact.html">
+      Contact
+  </a>
+  </nav>
+
+</header>
+
+<body>
+    <h1>Our story</h1>
+    <img src="images/aboutus-Douwe_Egberts_Pickwick_thee,_foto_3.JPG" alt="Pickwick thee" width="50%">
+    <h4 class="photo">Source: wikipedia.com <br> 
+        Photo of old Pickwick Tea packaging, photo made by Alf van Beem</h4>
+    <p>Pickwick is a brand with an impressive history. <br>
+        Since 1753, Pickwick has been a strong international
+        theme brand. A brand full of flavour, which offers 
+        pure and natural products that can be enjoyed at 
+        any time of the day. <br> 
+        <br>
+        Millions of people around the 
+        world drink one of the various and tasty Pickwick 
+        tea blends daily. In this section you can read more 
+        about the Pickwick brand.</p>
+        <h2>Pickwick's history</h2>
+        <img src="images/aboutus-Douwe_Egberts_logo.png" alt="Douwe Egberts logo" width="30%">
+        <h4 class="photo">Old Douwe Egberts logo</h4>
+        <p>Douwe Egberts has since 1753 gathered a lot of 
+            experience about creating different tea blends. 
+            1753 was the year that Egbert Douwe opened his 
+            first small shop in the Netherlands, where he sold
+            coffee, tea and tobacco. <br>
+            <br>
+            Until April 1937, all tea was marketed under the 
+            Douwe Egberts trademark. At that time, customers
+            were given a tea box, which had a drawing of an 
+            English mail van. This packaging proved to be very 
+            popular and inspired to find an English-sounding 
+            brand name for Douwe Egbert's tea. <br> 
+            <br>
+            The director of Douwe Egberts at the time had a 
+            wife, who was as fond of tea as she was of Charles 
+            Dickens' books. Inspired by his short story 
+            "Pickwick Papers", she suggested the name 
+            "Pickwick". Since then, Douwe Egbert's tea has 
+            been marketed under this brand name. <br>
+            </p>
+            <img src="images/about us-Pickwickclub_serial.jpg" alt="Pickwick club" width="50%">
+            <h4 class="photo">Source: britishlibrary.cn <br> 
+            Cover of serial Pickwick Club by Charles Dickens</h4>
+            <img src="images/about us-Hablot_Knight_Browne_-_The_Pickwick_Papers,_Pickwick_at_the_slide.jpg" alt="Pickwick sliding on ice" width="50%">
+            <h4 class="photo">Source: wikipedia.com <br>
+            Mr. Pickwick sliding on ice, illustration by Hablot Knight Browne</h4>
+
+<footer>
+  <div class="footer">
+    <div class="footerlogo">
+      <a href="index.html">
+      <img src="images/logovec.png" alt="Pickwick logo" width="94px"></a>
+      <p id="midup">From 1753</p>
+  </div class="float-container">
+    <div id="child">
+      <ul style="list-style: none;">
+      <li>CVR 36 47 39 59</li>
+      <li>Customer service: 80 88 35 21</li>
+      <li>Jacobs Douwe Egberts</li>
+      </ul>
+    </div>
+    <div id="child">
+      <ul style="list-style: none;">
+        <li>Privacy Policy</li>
+        <li>Cookies</li>
+        <li>Inspection report</li>
+      </ul>
+    </div>
+    <div class="middown">
+  <p id="middown">©2021 Pickwick</p>
+</div>
+  </div> 
+</footer>
+
+</body>
+
+<script src="./style.js"></script>
+
+</html>

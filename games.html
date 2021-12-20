@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+        h6{
+            background-color: #D3D840;
+            font-size: 50px;
+        font-family: 'Merienda', cursive;
+        padding: 30px;
+        color: black;
+        text-align: center;
+        }
+        .bodyimg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h3{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        p{
+            margin-left: 30%;
+        }
+    </style>
+</head>
+
+<header>
+  
+  <!--Desktop nav-->
+  <div class="navbar">
+    <div class="logo">
+        <a href="index.html">
+        <img src="images/logovec.png" alt="Pickwick logo" width="94px"></a>
+    </div>
+    <!--Left part-->
+    <a href="types.html">Types</a>
+    <div class="subnav">
+      <button class="subnavbtn">About us<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="ourstory.html">Our History</a>
+        <a href="https://www.pickwick.nl/duurzaamheid/">Sustainability</a>
+      </div>
+    </div>
+    <a href="faq.html">FAQ</a>
+    <!--Right part-->
+    <a href="contact.html" id="righties">Contact</a>
+    <div class="subnav" id="righties">
+      <button class="subnavbtn">Order<i class="fa fa-caret-down" id="righties"></i></button>
+      <div class="subnav-content">
+        <a href="order.html" id="righties">Coded</a>
+        <a href="order-mockup.html" id="righties">Planned</a>
+      </div>
+    </div>
+    <a href="games.html" id="righties">Game</a>
+  </div>
+  
+  <nav>
+    <!-- Mobile hamburger -->
+    <div id="hamburger" onclick="toggleHamburger(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+      </div>
+      <div class="mobilelogo">
+        <a href="index.html">
+        <img src="images/logovec.png" alt="Pickwick logo" height="70px"></a>
+    </div>
+    </nav>
+  
+    <!-- Mobile Nav -->
+  <nav class="nav-links-mobile nav-links-mobile-hidden">
+      <a href="types.html">
+          Types
+      </a>
+      <a href="ourstory.html">
+          Our Story
+      </a>
+      <a href="https://www.pickwick.nl/duurzaamheid/">
+        Sustainability
+    </a>
+      <a href="faq.html">
+          FAQ
+      </a>
+      <a href="games.html">
+          Games
+      </a>
+      <a href="order.html">
+        Order
+    </a>
+    <a href="contact.html">
+      Contact
+  </a>
+  </nav>
+
+</header>
+
+<body>
+    <h1>Try to win!</h1>
+    <h6>Click here to begin!</h6>
+    <h2>Try to win during the new period of our game!</h2>
+    <h3>The Maze Challenge <br>
+    New place for the new period! <br>
+    Play a bit during the holiday season and win our prizes!</h3>
+    <p>¤ Free shipping if you order from other countries <br>
+    ¤ Discounts on Pickwick teas, which you can use online and in shops too! <br>
+    ¤ 5 box present collection <br>
+    ¤ 10 box present collection <br>
+    ¤ The first pieces of our merch line <br>
+    ¤ Prize money <br>
+    </p>
+    <h2>Get out of the maze and complete the challenges!</h2>
+    <p>Every challenge gives you more ponts, so take part and collect them all!</p>
+    <img src="images/gameplay-labirintus-color.png" alt="Labirintus" width="50%" class="bodyimg">
+    <h2>Choose wisely where you go, you can easily get stuck...</h2>
+    <p>Sometimes it's just 2 ways, but sometimes you'll have much more option.</p>
+    <img src="images/gameplay-color.png" alt="main" width="50%" class="bodyimg">
+    <h2>Say hi to KING EARL GRAY</h2>
+    <h2>New character that you can play with.</h2>
+    <p>Soon the others will follow, be sure to stick around!</p>
+    <img src="images/gameplay-character-colorvec.png" alt="New character" width="50%" class="bodyimg">
+
+<footer>
+  <div class="footer">
+    <div class="footerlogo">
+      <a href="index.html">
+      <img src="images/logovec.png" alt="Pickwick logo" width="94px"></a>
+      <p id="midup">From 1753</p>
+  </div class="float-container">
+    <div id="child">
+      <ul style="list-style: none;">
+      <li>CVR 36 47 39 59</li>
+      <li>Customer service: 80 88 35 21</li>
+      <li>Jacobs Douwe Egberts</li>
+      </ul>
+    </div>
+    <div id="child">
+      <ul style="list-style: none;">
+        <li>Privacy Policy</li>
+        <li>Cookies</li>
+        <li>Inspection report</li>
+      </ul>
+    </div>
+    <div class="middown">
+  <p id="middown">©2021 Pickwick</p>
+</div>
+  </div> 
+</footer>
+
+</body>
+
+<script src="./style.js"></script>
+
+</html>
